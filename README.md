@@ -13,3 +13,4 @@ Further paragraphs come after blank lines.
   single space, with blank lines in between, but conventions vary here
 
 - Use a hanging indent
+- Use another hanging indent

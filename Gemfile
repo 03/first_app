@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# LV updated
+
 gem 'rails', '3.2.10'
 
 group :development, :test do

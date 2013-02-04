@@ -4,11 +4,12 @@ class StaticPagesController < ApplicationController
   end
 
   def help
-    puts "home1"
+    puts "home 123"
   end
 
   def about
 
+	"about you!!"
   end
 
   def contact

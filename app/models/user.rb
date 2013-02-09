@@ -14,7 +14,7 @@ class User < ActiveRecord::Base
   has_secure_password
   has_many :microposts
 
-  before_save { |user| user.email = email.downcase }
+  before_save { self.email.downcase! }
 
   #validates(:name, presence: true)
   validates :name, presence: true, length: { maximum: 50 }
